@@ -38,7 +38,14 @@ int main()
             {
                 cout<<"Enter two no."<<endl;
                 cin>>a>>b;
-                cout<<"Division : "<<a/b<<endl;
+                if(b==0)
+                {
+                    cout<<"math error!!!"<<endl;
+                }
+                else
+                {
+                    cout<<"Division : "<<(float)a/b<<endl;
+                }
             }
             break;
             case 5:
